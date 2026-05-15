@@ -14,7 +14,6 @@ int main()
     {
         if (arr[i] >= arr[k] && arr[i] > 0)
         {
-
             next++;
         }
     }
