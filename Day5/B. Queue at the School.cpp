@@ -1,26 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main()
-{
-    int n, t;
-    string s;
+int main() {
+  int n, t;
 
-    cin >> n >> t >> s;
+  string s; 
+  cin >> n >> t >> s;
 
-    while (t--)
+  while(t--) {
+
+    for(int i = 1; i < n; i++) 
     {
-
-        for (int i = 1; i < n; ++i)
-        {
-            if (s[i] == 'G' && s[i - 1] == 'B')
-            {
-
-                s[i] = 'B';
-                s[i - 1] = 'G';
-                ++i;
-            }
+        if(s[i] == 'G' && s[i-1] == 'B') {
+            s[i] = 'B';
+            s[i-1] = 'G';
+            ++i;
         }
     }
-    cout << s << endl;
+  }
+  cout << s << endl;
+
+
     return 0;
 }
