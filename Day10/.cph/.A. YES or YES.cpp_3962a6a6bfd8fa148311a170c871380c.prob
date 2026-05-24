@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"d:\\Codeforces Camp - Shohoj Coding\\Day10\\A. YES or YES.cpp","tests":[{"id":1779604399949,"input":"10\nYES\nyES\nyes\nYes\nYeS\nNoo\norZ\nyEz\nYas\nXES\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codeforces Camp - Shohoj Coding\\Day10\\A. YES or YES.cpp","group":"local","local":true}
