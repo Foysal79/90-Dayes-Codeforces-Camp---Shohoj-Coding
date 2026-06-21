@@ -16,8 +16,7 @@ int main()
            if(v[i] < v[i-1] ) {
             sorted = false;
             break;
-           }
-        }
+
 
         cout << (sorted ? "YES\n" : "NO\n");
        }
